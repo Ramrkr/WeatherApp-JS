@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div class="tot" >
+        <div class="topic">
+            <h1> Weather App</h1>
+           
+            
+        </div>
+        <div class="container" >
+            <input class="inp" id="inp-city" type="text" placeholder="Enter the city name" required >
+            <br>
+            <button class="btn" onclick="weatherFn()">Get Weather</button>
+        </div>
+    </div>
+    <div class="reply" id="reply">
+    <div id="city">
+    <h2 id="city-name"></h2>
+</div>
+<div id="img">
+    <img id="dispimg" src="" alt="image_shown_here" />
+</div>
+<div id="temperature">
+    <p id="cur-temp"></p>
+</div>
+<div id="humidity">
+    <p id="cur-humidity"></p>
+</div>
+<div id="wind">
+    <p id="windspeed"></p>
+</div>
+    </div>
+    <script src="reply.js"></script>
+    
+</body>
+</html>

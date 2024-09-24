@@ -1,0 +1,107 @@
+body {
+    align-content: center;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  }
+  
+  .container {
+    background-color: #ffcccb;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40%;
+    text-align: center;
+    padding-bottom: 1%;
+    align-items: center;
+    max-width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .container:hover {
+    transform: scale(1.05);
+  }
+  
+  .inp {
+    width: 50%;
+    font-size: larger;
+    margin-top: 10%;
+    border: none;
+    border-radius: 10px;
+    padding: 1.5% 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s;
+  }
+  
+  .inp:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .inp:hover
+  {
+    transition: box-shadow 0.2s;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    font-size: x-large;
+    border: 10px;
+    color: white;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 10%;
+    border-radius: 500px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: rgb(35, 135, 235);
+    transform: scale(1.1);
+  }
+  
+  .topic {
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 23%;
+    margin-left: 40%;
+    padding: 1%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reply {
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40%;
+    text-align: center;
+    padding-bottom: 5%;
+    max-width: 25%;
+    max-height:10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  .dispimg{
+    display: none;
+  }
+  
+  h2 {
+    padding-top: 12%;
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    font-style: italic;
+    color: black;
+  }
+  
